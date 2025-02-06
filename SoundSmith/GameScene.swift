@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainScreen: View {
+struct GameScene: View {
     @State private var noteBlocks: [NoteBlock] = [
         NoteBlock(pitch: "C", duration: 1.0, position: CGPoint(x: 28, y: 510), initialPosition: CGPoint(x: 28, y: 510)),
         NoteBlock(pitch: "C#", duration: 1.0, position: CGPoint(x: 57, y: 567), initialPosition: CGPoint(x: 57, y: 567)),
@@ -242,6 +242,6 @@ struct NoteBlock: Identifiable {
 
 struct MainScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MainScreen()
+        GameScene()
     }
 }
