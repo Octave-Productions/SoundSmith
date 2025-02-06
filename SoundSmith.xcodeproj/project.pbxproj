@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C80F81E12D40201700CB0EC2 /* SoundSmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundSmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C80F81F12D40201A00CB0EC2 /* SoundSmithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSmithTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C80F81FB2D40201A00CB0EC2 /* SoundSmithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSmithUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F81E12D40201700CB0EC2 /* SoundSmithIdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundSmithIdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F81F12D40201A00CB0EC2 /* SoundSmithIdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSmithIdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F81FB2D40201A00CB0EC2 /* SoundSmithIdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundSmithIdkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		C80F81E22D40201700CB0EC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C80F81E12D40201700CB0EC2 /* SoundSmith.app */,
-				C80F81F12D40201A00CB0EC2 /* SoundSmithTests.xctest */,
-				C80F81FB2D40201A00CB0EC2 /* SoundSmithUITests.xctest */,
+				C80F81E12D40201700CB0EC2 /* SoundSmithIdk.app */,
+				C80F81F12D40201A00CB0EC2 /* SoundSmithIdkTests.xctest */,
+				C80F81FB2D40201A00CB0EC2 /* SoundSmithIdkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C80F81E02D40201700CB0EC2 /* SoundSmith */ = {
+		C80F81E02D40201700CB0EC2 /* SoundSmithIdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80F82052D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmith" */;
+			buildConfigurationList = C80F82052D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdk" */;
 			buildPhases = (
 				C80F81DD2D40201700CB0EC2 /* Sources */,
 				C80F81DE2D40201700CB0EC2 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				C80F81E32D40201700CB0EC2 /* SoundSmith */,
 			);
-			name = SoundSmith;
+			name = SoundSmithIdk;
 			packageProductDependencies = (
 			);
 			productName = SoundSmith;
-			productReference = C80F81E12D40201700CB0EC2 /* SoundSmith.app */;
+			productReference = C80F81E12D40201700CB0EC2 /* SoundSmithIdk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C80F81F02D40201A00CB0EC2 /* SoundSmithTests */ = {
+		C80F81F02D40201A00CB0EC2 /* SoundSmithIdkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80F82082D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithTests" */;
+			buildConfigurationList = C80F82082D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdkTests" */;
 			buildPhases = (
 				C80F81ED2D40201A00CB0EC2 /* Sources */,
 				C80F81EE2D40201A00CB0EC2 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				C80F81F42D40201A00CB0EC2 /* SoundSmithTests */,
 			);
-			name = SoundSmithTests;
+			name = SoundSmithIdkTests;
 			packageProductDependencies = (
 			);
 			productName = SoundSmithTests;
-			productReference = C80F81F12D40201A00CB0EC2 /* SoundSmithTests.xctest */;
+			productReference = C80F81F12D40201A00CB0EC2 /* SoundSmithIdkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C80F81FA2D40201A00CB0EC2 /* SoundSmithUITests */ = {
+		C80F81FA2D40201A00CB0EC2 /* SoundSmithIdkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80F820B2D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithUITests" */;
+			buildConfigurationList = C80F820B2D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdkUITests" */;
 			buildPhases = (
 				C80F81F72D40201A00CB0EC2 /* Sources */,
 				C80F81F82D40201A00CB0EC2 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				C80F81FE2D40201A00CB0EC2 /* SoundSmithUITests */,
 			);
-			name = SoundSmithUITests;
+			name = SoundSmithIdkUITests;
 			packageProductDependencies = (
 			);
 			productName = SoundSmithUITests;
-			productReference = C80F81FB2D40201A00CB0EC2 /* SoundSmithUITests.xctest */;
+			productReference = C80F81FB2D40201A00CB0EC2 /* SoundSmithIdkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C80F81DC2D40201700CB0EC2 /* Build configuration list for PBXProject "SoundSmith" */;
+			buildConfigurationList = C80F81DC2D40201700CB0EC2 /* Build configuration list for PBXProject "SoundSmithIdk" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C80F81E02D40201700CB0EC2 /* SoundSmith */,
-				C80F81F02D40201A00CB0EC2 /* SoundSmithTests */,
-				C80F81FA2D40201A00CB0EC2 /* SoundSmithUITests */,
+				C80F81E02D40201700CB0EC2 /* SoundSmithIdk */,
+				C80F81F02D40201A00CB0EC2 /* SoundSmithIdkTests */,
+				C80F81FA2D40201A00CB0EC2 /* SoundSmithIdkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		C80F81F32D40201A00CB0EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C80F81E02D40201700CB0EC2 /* SoundSmith */;
+			target = C80F81E02D40201700CB0EC2 /* SoundSmithIdk */;
 			targetProxy = C80F81F22D40201A00CB0EC2 /* PBXContainerItemProxy */;
 		};
 		C80F81FD2D40201A00CB0EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C80F81E02D40201700CB0EC2 /* SoundSmith */;
+			target = C80F81E02D40201700CB0EC2 /* SoundSmithIdk */;
 			targetProxy = C80F81FC2D40201A00CB0EC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundSmith.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundSmith";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundSmithIdk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundSmithIdk";
 			};
 			name = Debug;
 		};
@@ -480,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundSmith.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundSmith";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundSmithIdk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundSmithIdk";
 			};
 			name = Release;
 		};
@@ -521,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C80F81DC2D40201700CB0EC2 /* Build configuration list for PBXProject "SoundSmith" */ = {
+		C80F81DC2D40201700CB0EC2 /* Build configuration list for PBXProject "SoundSmithIdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F82032D40201A00CB0EC2 /* Debug */,
@@ -530,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80F82052D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmith" */ = {
+		C80F82052D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F82062D40201A00CB0EC2 /* Debug */,
@@ -539,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80F82082D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithTests" */ = {
+		C80F82082D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F82092D40201A00CB0EC2 /* Debug */,
@@ -548,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80F820B2D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithUITests" */ = {
+		C80F820B2D40201A00CB0EC2 /* Build configuration list for PBXNativeTarget "SoundSmithIdkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C80F820C2D40201A00CB0EC2 /* Debug */,
